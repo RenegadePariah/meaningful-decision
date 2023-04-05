@@ -1,0 +1,16 @@
+;scenario.seed		0
+;tree.depth		6
+;tree.length.max	10
+;tree.length.start	0
+;count.color		4
+;size.puzzle		28
+;currency.start		0
+;currency.end		0
+;difficulty.minimum	0
+;difficulty.maximum	1
+;ratio.mutation		0
+;ratio.surprise		0
+;rate.insertion		1
+;rate.deletion		1
+;rate.incrementation	1
+;rate.coloration	1

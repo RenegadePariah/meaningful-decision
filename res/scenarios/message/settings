@@ -1,0 +1,15 @@
+tree.depth		12
+tree.length.max		16
+tree.length.start	8
+count.color		1
+size.puzzle		10
+currency.start		10
+currency.end		20
+difficulty.minimum	0
+difficulty.maximum	1
+ratio.mutation		0.5
+ratio.surprise		0
+rate.insertion		0.25
+rate.deletion		0.2
+rate.incrementation	1
+rate.coloration		0
