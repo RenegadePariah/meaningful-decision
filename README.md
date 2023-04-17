@@ -61,7 +61,7 @@ Merging: Only primary and secondary color blocks may be merged by pushing them o
 	Pink blocks can be merged with pink blocks, providing red and blue currency.
 	Cyan blocks can be merged with cyan blocks, providing green and blue currency.
 	Cyan blocks can be merged with green blocks, providing green currency, and leaving a blue block.
-	Cyan blocks can be merged with blue blocks, providing blue currency, and leaving a blue block.
+	Cyan blocks can be merged with blue blocks, providing blue currency, and leaving a green block.
 	Secondary color blocks can be merged with primary color blocks, providing the mutually held currency, and changing the color to the remaining primary value.
 
 Swapping: The player may change their color to enable swaping with blocks of the same color. Primary color, secondary color, and white blocks may be swapped with the player (they may exchange places). A swap costs the respective currency to perform. The currency balance is allowed to be negative for white blocks only (the player must have a positive red currency balance in order to exchange places with a red block).
@@ -84,22 +84,22 @@ This game possesses modding capabilities. In order to create a mod: 1) create a 
 
 Fields of the 'settings' text file:
 
-scenario.seed allows to fix the scenario to a specific series of decisions
-tree.depth is the number of branches (2^n-1)
-tree.length.max is the maximal size of a decision string
-tree.length.start is the initial size of a decision string
-count.color is the number of available colors to shade a decision character
-size.puzzle is the size of puzzles (width and height)
-currency.start is the starting currency of the player (equal for all three currencies)
-currency.end is the currency the player must spend to win the game in the final puzzle (equal for all three currencies)
-difficulty.minimum determines the minimum difficulty of a puzzle
-difficulty.maximum determines the maximum difficulty of a puzzle
-ratio.mutation is the likelihood that decision strings receives more than one character change from parent to child (inheritance).
-ratio.surprise is the likelihood that one character of a decision is only revealed at the end
-rate.insertion is the likelihood for decision strings to inherit a new character
-rate.deletion is the likelihood for decision strings to lose an inherited character
-rate.incrementation is the likelihood for decision strings to change the progress of an inherited character (negatively or positively)
-rate.coloration is the likelihood for decision strings to change the color of an inherited character
+scenario.seed allows to fix the scenario to a specific series of decisions. 
+tree.depth is the number of branches (2^n-1). 
+tree.length.max is the maximal size of a decision string .
+tree.length.start is the initial size of a decision string .
+count.color is the number of available colors to shade a decision character. 
+size.puzzle is the size of puzzles (width and height). 
+currency.start is the starting currency of the player (equal for all three currencies). 
+currency.end is the currency the player must spend to win the game in the final puzzle (equal for all three currencies). 
+difficulty.minimum determines the minimum difficulty of a puzzle. 
+difficulty.maximum determines the maximum difficulty of a puzzle. 
+ratio.mutation is the likelihood that decision strings receives more than one character change from parent to child (inheritance). 
+ratio.surprise is the likelihood that one character of a decision is only revealed at the end. 
+rate.insertion is the likelihood for decision strings to inherit a new character. 
+rate.deletion is the likelihood for decision strings to lose an inherited character. 
+rate.incrementation is the likelihood for decision strings to change the progress of an inherited character (negatively or positively). 
+rate.coloration is the likelihood for decision strings to change the color of an inherited character. 
 
 Assign a value to a field by writting <field.name><whitespace><field.value> on one line. The field's ultimate value will be the last assignment for that field in the file.
 
