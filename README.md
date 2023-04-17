@@ -27,6 +27,7 @@ scenario_path: the path to the scenario to play
 random_seed: overrides the scenario's random seed configuration
 
 default scenario_path: res/scenarios/default
+
 default random_seed: (not fixed)
 
 ---
@@ -34,8 +35,11 @@ default random_seed: (not fixed)
 4. Key bindings
 
 A: move left
+
 D: move right
+
 W: jump up
+
 S: jump down
 
 Space: change player's color
@@ -43,6 +47,7 @@ Space: change player's color
 Escape: exit the game
 
 F5: restart game
+
 F11: toggle fullscreen
 
 ---
